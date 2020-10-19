@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
-    var redColorView: CGFloat = 0
-    var greenColorView: CGFloat = 0
-    var blueColorView: CGFloat = 0
+    private var redColorView: CGFloat = 0
+    private var greenColorView: CGFloat = 0
+    private var blueColorView: CGFloat = 0
     
     //MARK: ViewDidLoad
     override func viewDidLoad() {
